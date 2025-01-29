@@ -8,7 +8,17 @@ export default function Home({ Component, pageProps }) {
     return ( 
         <PrimeReactProvider>
             <Page >
-                <Component {...pageProps }/>
+                <div className='container flex flex-row'>
+                    <div className='header '>
+                       <Header/>
+                    </div>
+                    <div className='landing'>
+                        <Landing/>
+                    </div>
+                    <div className='footer'>
+                        <Footer/>
+                    </div>
+                </div>
             </Page> 
         </PrimeReactProvider>
         )
