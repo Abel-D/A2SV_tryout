@@ -1,12 +1,14 @@
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import PropTypes from 'prop-types';
+import {Layout } from 'antd';
 
 export default function Page({ children }) {
 
     return ( 
         <AntdRegistry >
-            <h2>   </h2> 
-            { children } 
+           
+              { children } 
+          
         </AntdRegistry >
     )
 }
