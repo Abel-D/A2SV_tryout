@@ -6,9 +6,9 @@ export default function Page({ children }) {
 
     return ( 
         <AntdRegistry >
-           
+           <Layout>
               { children } 
-          
+          </Layout>
         </AntdRegistry >
     )
 }
